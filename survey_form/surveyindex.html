@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<form id="survey-form" >
+    <fieldset>
+    <label id="name-label">Name: <input type="text" id="name" placeholder="Enter-Name" required/></label><br>
+    <label id="email-label">Email: <input type="email" id="email" placeholder="Enter-email" required/></label>
+    <label id="number-label">Number: <input type="number" id="number" placeholder="enter-number" min="10" max="10" required/></label>
+</fieldset>
+
+    <fieldset>
+    <label> Select any one
+    <select id="dropdown">
+        <option value="1">I dont know option 1?</option>
+        <option value="2">I dont know option 2?</option>
+    </select>
+    </label>
+    </fieldset>
+    <fieldset>
+    <label> recommend freeCodeCamp to a friend
+        <input type="radio" value="1" name="radio1">
+        <input type="radio" value="2" name="radio1">
+    </label>
+    <br>
+    <label> why
+        <input type="radio" value="3" name="radio2">
+        <input type="radio" value="4" name="radio2">
+    </label>
+    </fieldset>
+    <fieldset>
+    <label> <input type="checkbox" value="front-end-project"> front-end-project</label>
+    <label> <input type="checkbox" value="back-end-project">back-end-project</label>
+    <label> <input type="checkbox" value="data-visualisation">data-visualisation</label>
+    <label> <input type="checkbox" value="challenges">challenges</label>
+    <label> <input type="checkbox" value="videos">videos</label>
+    </fieldset>
+    <fieldset >
+        <textarea id="comments" name="comment" placeholder="Enter your comments here"> </textarea>
+        
+        <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+
+
+    </fieldset>
+
+
+
+
+</form>
+</body>
+</html>

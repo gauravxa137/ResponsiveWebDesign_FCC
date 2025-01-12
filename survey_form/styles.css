@@ -1,0 +1,82 @@
+/* set default font and box-sizing for all elements */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* style the header */
+  #title {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* style the form container */
+  #survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* style the form fields */
+  fieldset {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* style the form labels */
+  #name-label,
+  #email-label,
+  #number-label {
+    display: block;
+  }
+  
+  /* style the form description */
+  #description {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
