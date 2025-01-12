@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    overflow-y: auto;
+    background-color: #f4f4f4;
+}
+
+#navbar header {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#navbar .nav-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+#navbar .nav-link:hover {
+    background-color: #e4e4e4;
+}
+
+#main-doc {
+    margin-left: 320px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+}
+
+.main-section header {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    line-height: 1.6em;
+}
+
+/* Added styles */
+body {
+    background-color: #333333; /* metal gray */
+}
+
+#navbar, #navbar header, #navbar .nav-link:hover {
+    background-color: #DC143C; /* crimson red */
+}
+
+#navbar .nav-link, #main-doc {
+    color: #DCDCDC; /* light gray */
+}
+
+/* Added hover properties */
+#navbar .nav-link:hover {
+    color: white; /* white text on hover */
+}
+
+@media (max-width:800px) {
+    #navbar {
+        width:auto
+        height:auto
+        position:auto
+        background-color:auto
+        border-bottom:auto
+        text-align:center
+        float:none
+        clear:none
+        overflow-x:auto
+        overflow-y:auto
+        clip:auto
+        zoom:normal
+        
+}
+    
+}
